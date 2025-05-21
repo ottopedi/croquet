@@ -1,11 +1,12 @@
 # Open Croquet for Squeak 5.x
 
-Original Open Croquet running on the latest versions of Squeak 5.x
+Copy of the Open Croquet running on the latest versions of Squeak 5.x, in the repository of Nikolay Suslov.
+This is the version I use to load only the Croquet Packages, not FFI and OpenGL, wich I suppose are installed by the user, using the latest versions. 
 
 ## Install
 This repository is using [Squot](https://github.com/hpi-swa/Squot) for Git connectivity.
 
-For Squeak 5.2 (and newer) do the following:
+For Squeak 6.0 (and newer) do the following:
 
 1. Install **Squot**
 
@@ -16,7 +17,7 @@ For Squeak 5.2 (and newer) do the following:
 ```
 Metacello new
   baseline: 'Croquet';
-  repository: 'github://nikolaysuslov/croquet-squeak';
+  repository: 'github://ottopedicroquet';
  load.
  ```
  
