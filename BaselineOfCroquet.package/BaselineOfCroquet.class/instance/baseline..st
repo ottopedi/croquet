@@ -8,7 +8,7 @@ baseline: spec
                
 				package: 'Logging';
 				package: 'Script-Preload';
-				package: 'Scripting'
+				package: 'Scripting';
                 		package: 'Islands'
 					 with: [ spec requires: #('Scripting') ];
 				package: 'Croquet-Misc' 
