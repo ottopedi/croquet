@@ -5,15 +5,11 @@ baseline: spec
         for: #'common'
         do: [ 
             spec
-                package: 'OpenGL-Core' 
-		    with: [ spec requires: #('FFI-Pools' 'FFI-Kernel' 'OpenGL-Pools' 'OpenGL-NameManager') ];
-                package: '3DTransform'
-                    with: [ spec requires: #('OpenGL-Core') ];
+               
 				package: 'Logging';
 				package: 'Script-Preload';
 				package: 'Scripting'
-                    with: [ spec requires: #('Logging' 'Script-Preload') ];
-				package: 'Islands'
+                		package: 'Islands'
 					 with: [ spec requires: #('Scripting') ];
 				package: 'Croquet-Misc' 
 					with: [ spec requires: #('Islands') ];
@@ -50,6 +46,4 @@ baseline: spec
 				package: 'HedgeHacks-Spreadsheet'
 					with: [ spec requires: #('HedgeHacks-Painter') ];
 				package: 'HedgeHacks-BFD'
-					with: [ spec requires: #('HedgeHacks-Spreadsheet') ].
-            spec
-                group: 'default' with: #('3DTransform' 'HedgeHacks-BFD')]
+					with: [ spec requires: #('HedgeHacks-Spreadsheet') ]].
