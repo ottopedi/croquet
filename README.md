@@ -13,7 +13,7 @@ For Squeak 6.0 (and newer) do the following:
 
 ``` Installer installGitInfrastructure. ```
 
-2. Load **Open Croquet** (with FFI, OpenGL and Croquet)
+2. Load **Open Croquet** (with FFI, OpenGL already loaded in the image)
 
 ```
 Metacello new
