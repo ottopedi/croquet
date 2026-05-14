@@ -1,4 +1,4 @@
-# Open Croquet for Squeak 5.x
+# Open Croquet for Squeak 6.x
 
 Copy of the Open Croquet running on the latest versions of Squeak 5.x, in the repository of Nikolay Suslov.
 This is the version I use to load only the Croquet Packages, not FFI and OpenGL, wich I suppose are installed by the user, using the latest versions. 
@@ -18,7 +18,7 @@ For Squeak 6.0 (and newer) do the following:
 ```
 Metacello new
   baseline: 'Croquet';
-  repository: 'github://ottopedicroquet';
+  repository: 'github://ottopedi/croquet';
  load.
  ```
  
