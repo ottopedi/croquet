@@ -5,8 +5,7 @@ baseline: spec
         for: #'common'
         do: [ 
             spec
-               
-				package: 'Logging';
+               	package: 'Logging';
 				package: 'Script-Preload';
 				package: 'Scripting';
                 package: 'Islands'
